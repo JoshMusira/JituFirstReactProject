@@ -1,16 +1,17 @@
 
 
 body{
-  background-color: rgb(143, 204, 204);
+  background-color:  #eee;
 }
 .blog-body-main{
   display: flex;
+  margin-bottom: 5px;
 
 }
 h1{
   margin: 0;
   padding: 0;
-  color: #fff;
+  color: #383636;
   font-weight: normal;
   font-size: 40px;
   height: 70px;
@@ -20,15 +21,28 @@ h1{
 
 
 .blog-body-main .leftbar{
-  border: 2px solid rgb(18, 204, 204);
-  
+  /* border: 2px solid rgb(18, 204, 204); */
+  /* gap: 10px; */
   width: 80%;
   padding: 5px;
+  
 
   
 }
+.blog-body-main .leftbar div{
+  border: 2px solid rgb(18, 204, 204);
+  border-radius: 10px;
+  /* margin: 1px; */
+
+}
+.blog-body-main .leftbar h2{
+  color: #383636;
+  font-weight: normal;
+  padding: 0 10px;
+}
 .blog-body-main .leftbar p{
   text-indent: 35px;
+  color: rgb(53, 51, 51);
 }
 
 
@@ -43,6 +57,6 @@ h1{
 .footer{
   display: flex;
   justify-content: space-around;
-  color: #220;
+  color:   #7c7575;
   font-style: oblique;
 }

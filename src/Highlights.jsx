@@ -4,7 +4,7 @@ import HighlightMain from "./HighlightsMain";
 function Highlight(){
     
     return(
-        <section>
+        <section className="">
            <HighlightMain/>
         </section>
     )
