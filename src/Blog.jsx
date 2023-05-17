@@ -4,8 +4,8 @@
 const Blog = ({name, updates}) =>{
 
     return(
-      <div >
-          <div >
+      <div className="mainContainer">
+          <div className="container">
               <h2>{name}</h2>
               <p>{updates}</p>
           </div>

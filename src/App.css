@@ -5,12 +5,12 @@ body{
 }
 .blog-body-main{
   display: flex;
-  margin-bottom: 5px;
+  /* margin-bottom: 5px; */
 
 }
 h1{
-  margin: 0;
-  padding: 0;
+  /* margin: 0; */
+  /* padding: 10px  15px; */
   color: #383636;
   font-weight: normal;
   font-size: 40px;
@@ -44,7 +44,9 @@ h1{
   text-indent: 35px;
   color: rgb(53, 51, 51);
 }
-
+.mainContainer .container{
+  margin-bottom: 9px;
+}
 
 .blog-body-main  .rightSideBar{
   border: 2px solid rgb(18, 204, 204);
